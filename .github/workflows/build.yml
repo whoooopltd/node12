@@ -14,4 +14,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
+          repository: johncashmore/node/12 
           tags: latest
