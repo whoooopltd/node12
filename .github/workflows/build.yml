@@ -15,5 +15,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: Whoooop/node12/node12
+          repository: whoooop/node12/node12
           tag_with_ref: true
